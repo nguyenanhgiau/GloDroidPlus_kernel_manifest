@@ -6,7 +6,7 @@
 
 ```
 repo init -u https://android.googlesource.com/kernel/manifest -b common-android17-6.18-lts
-curl -o .repo/local_manifests/manifest_brcm_rpi.xml -L https://raw.githubusercontent.com/raspberry-vanilla/android_kernel_manifest/android-17.0/manifest_brcm_rpi.xml --create-dirs
+git clone https://github.com/nguyenanhgiau/GloDroidPlus_kernel_manifest.git -b glodroid-a17 .repo/local_manifests
 ```
 
 3. Sync source code:

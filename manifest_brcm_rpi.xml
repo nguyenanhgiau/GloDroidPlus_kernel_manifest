@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="github" fetch="https://github.com/" />
+  <remote  name="mygitlab"       fetch="https://gitlab.com/glodroid_platform" />
 
   <!-- Raspberry Pi -->
   <remove-project name="kernel/common" />
-  <project path="common" name="raspberry-vanilla/android_kernel_brcm_rpi" remote="github" revision="android-17.0" />
+  <project path="common" name="kernel/boradcom" remote="mygitlab" revision="glodroid-a17" />
   <project path="vendor/brcm" name="raspberry-vanilla/proprietary_vendor_brcm" remote="github" revision="android-17.0" />
 
 </manifest>
